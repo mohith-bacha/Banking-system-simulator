@@ -4,7 +4,7 @@
 using namespace std;
 int userIndex(const vector<pair<int,int>>&v,int id) 
 {
-    for (int i = 0; i<(int)v.size(); i++) 
+    for (int i = 0;i<(int)v.size(); i++) 
     {
         if (v[i].first == id)
             return i;
